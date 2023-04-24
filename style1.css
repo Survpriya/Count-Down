@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./img/157285447e779e2bdf714abafa9e0e50--box-beauty-mystery-box.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.7;
+  padding-top: 5%;
+}
+.heading {
+  width: 60%;
+  padding: 10px 22px;
+  font-size: 4em;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  color: #270aca;
+  text-shadow: 5px 2px 5px rgb(31, 243, 243);
+  text-transform: capitalize;
+  margin-left: 24%;
+  font-weight: 1000;
+  font-family: system-ui;
+  display: flex;
+  text-decoration: underline 3px rgb(0, 10, 10);
+  /* background-color: aliceblue; */
+}
+form {
+  width: 30%;
+  height: 70%;
+  text-align: left;
+  margin: 2% 40%;
+}
+.title {
+  word-spacing: 1%;
+  padding-top: 7%;
+  letter-spacing: 4px;
+}
+p {
+  text-shadow: 5px 4px 4px rgb(7, 48, 159);
+  color: rgb(226, 254, 11);
+  font-size: 4em;
+  font-style: italic;
+  font-weight: 900;
+  font-family: monospace;
+}
+#name {
+  width: 20em;
+  height: 3em;
+  border: 3px black solid;
+  border-radius: 8px;
+  font-size: 15px;
+}
+#DOB {
+  width: 20em;
+  height: 3em;
+  border: 3px black solid;
+  border-radius: 8px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+#time {
+  width: 20em;
+  height: 3em;
+  border: 3px black solid;
+  border-radius: 8px;
+  font-size: 15px;
+}
+.btn {
+  margin: 7em 3em;
+  width: 8em;
+  height: 4em;
+  border: 5px black solid;
+  border-radius: 20px;
+  box-shadow: 4px 5px 5px ;
+  background-color: rgb(145, 246, 216);
+  font-weight: 900;
+}
+.btn:hover {
+  background-color: yellowgreen;
+  color: blue;
+}
